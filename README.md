@@ -61,3 +61,5 @@ The two-step verification is enabled and a password is required
 Password hint: None
 Enter password (empty to recover):    # 此处输入两步验证密码
 ```
+
+出现已启动提示，代表登录成功，此时可以去 Telegram 任意聊天发送 ,help 进行测试。
