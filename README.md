@@ -52,6 +52,12 @@
    python -m pagermaid
    ```
 8. 输入手机号码，按照提示确认手机号码是否正确，并输入 Telegram APP 收到的验证码。
-
-9. 如果启用了两步验证，您需要输入两步验证密码。
+```Enter phone number or bot token:    #此处填入手机号
+Is "+18888888888" correct? (y/N):    # 号码显示正确输入 y ,错误输入 n
+The confirmation code has been sent via Telegram app
+Enter confirmation code:    # 此处输入 Telegram APP 中收到的验证码
+# 如果设置了两步验证，则会出现以下提示
+The two-step verification is enabled and a password is required
+Password hint: None
+Enter password (empty to recover):    # 此处输入两步验证密码
 ```
